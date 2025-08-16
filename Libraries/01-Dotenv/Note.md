@@ -22,9 +22,9 @@ Environment variables are key-value pairs that exist outside your code and can b
 **Example:**
 
 ```
-DATABASE_URL=mongodb://localhost:27017/myapp
-API_KEY=your-secret-api-key-here
-NODE_ENV=development
+  DATABASE_URL=mongodb://localhost:27017/myapp
+  API_KEY=your-secret-api-key-here
+  NODE_ENV=development
 ```
 
 ---
