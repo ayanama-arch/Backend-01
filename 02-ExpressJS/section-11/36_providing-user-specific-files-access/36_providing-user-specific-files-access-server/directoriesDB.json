@@ -1,0 +1,65 @@
+[
+    {
+        "id": "d1e2f148-82aa-48f3-a824-c7de6580085b",
+        "name": "root-anurag@gmail.com",
+        "userId": "ee30db27-2c38-4d4a-975d-58967eba84de",
+        "parentDirId": null,
+        "files": [
+            "56fc6c5d-105d-4d83-92cc-d88cbf8a1108"
+        ],
+        "directories": [
+            "3e14c97c-6fba-4763-aff3-835f9c2aa16f",
+            "5d51e7b7-e307-42ea-95d4-103cc66a7134"
+        ]
+    },
+    {
+        "id": "1e446d5c-3db1-4361-bc17-c4f7820fe487",
+        "name": "root-procodrr@gmail.com",
+        "userId": "dc738d4e-3970-48a6-a15d-8c65785d6eb4",
+        "parentDirId": null,
+        "files": [
+            "0377ef99-8933-4294-878b-a3698b69e717"
+        ],
+        "directories": [
+            "a2d62c2c-4c36-4c67-ac95-65845cc64165",
+            "4a5e89dc-e2f4-4716-af24-8597f5058492"
+        ]
+    },
+    {
+        "id": "a2d62c2c-4c36-4c67-ac95-65845cc64165",
+        "name": "Pro",
+        "parentDirId": "1e446d5c-3db1-4361-bc17-c4f7820fe487",
+        "files": [
+            "90634df2-ab99-4741-8452-cbc83b0b6be6",
+            "df5a0124-4266-4646-bb16-43f6d6e43e12"
+        ],
+        "userId": "dc738d4e-3970-48a6-a15d-8c65785d6eb4",
+        "directories": []
+    },
+    {
+        "id": "3e14c97c-6fba-4763-aff3-835f9c2aa16f",
+        "name": "Anurag",
+        "parentDirId": "d1e2f148-82aa-48f3-a824-c7de6580085b",
+        "files": [
+            "e1e6e3d1-c142-494e-b28f-c5705ca5a0c5"
+        ],
+        "userId": "ee30db27-2c38-4d4a-975d-58967eba84de",
+        "directories": []
+    },
+    {
+        "id": "5d51e7b7-e307-42ea-95d4-103cc66a7134",
+        "name": "Test 1",
+        "parentDirId": "d1e2f148-82aa-48f3-a824-c7de6580085b",
+        "files": [],
+        "userId": "ee30db27-2c38-4d4a-975d-58967eba84de",
+        "directories": []
+    },
+    {
+        "id": "4a5e89dc-e2f4-4716-af24-8597f5058492",
+        "name": "ProCodrr",
+        "parentDirId": "1e446d5c-3db1-4361-bc17-c4f7820fe487",
+        "files": [],
+        "userId": "dc738d4e-3970-48a6-a15d-8c65785d6eb4",
+        "directories": []
+    }
+]

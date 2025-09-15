@@ -1,0 +1,17 @@
+[
+    {
+        "id": "86fbed0f-f396-4623-96d3-610079b5ee53",
+        "extension": ".txt",
+        "name": "test.txt"
+    },
+    {
+        "id": "ce977749-aabf-4b68-8797-0b7a2c11493e",
+        "extension": ".webp",
+        "name": "next.webp"
+    },
+    {
+        "id": "a965303d-2899-48f9-902b-bd1992d06778",
+        "extension": ".mp4",
+        "name": "DSA.mp4"
+    }
+]

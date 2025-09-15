@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0377ef99-8933-4294-878b-a3698b69e717",
+        "extension": ".png",
+        "name": "backend.png",
+        "parentDirId": "1e446d5c-3db1-4361-bc17-c4f7820fe487"
+    },
+    {
+        "id": "56fc6c5d-105d-4d83-92cc-d88cbf8a1108",
+        "extension": ".txt",
+        "name": "num.txt",
+        "parentDirId": "d1e2f148-82aa-48f3-a824-c7de6580085b"
+    },
+    {
+        "id": "e1e6e3d1-c142-494e-b28f-c5705ca5a0c5",
+        "extension": ".ico",
+        "name": "favicon.ico",
+        "parentDirId": "3e14c97c-6fba-4763-aff3-835f9c2aa16f"
+    },
+    {
+        "id": "90634df2-ab99-4741-8452-cbc83b0b6be6",
+        "extension": ".png",
+        "name": "Next.js.png",
+        "parentDirId": "a2d62c2c-4c36-4c67-ac95-65845cc64165"
+    },
+    {
+        "id": "df5a0124-4266-4646-bb16-43f6d6e43e12",
+        "extension": ".png",
+        "name": "customize-your-terminal.png",
+        "parentDirId": "a2d62c2c-4c36-4c67-ac95-65845cc64165"
+    }
+]
