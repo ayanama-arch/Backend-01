@@ -1,14 +1,20 @@
-// Nodejs has three different ways of doing same things
-// 1. Promise API
-// 2. Callback API
-// 3. Synchronous API
+const fs = require("fs/promises");
 
-// Generally use promise API for normally
-// Callback when performance intensive task faster than promise.
-// Use synchronous API ony when your'e sure about using it.
-const fs = require("fs");
+(async () => {
+  console.time("writeMany");
+  const fileHandle = await fs.open("./text.txt", "w");
 
-fs.watch("./text.txt", (eventtype, fileName) => {
-  console.log(eventtype);
-  console.log(fileName);
-});
+  const stream = fileHandle.createWriteStream();
+
+  // Size of Stream Buffer
+  console.log(stream.writableHighWaterMark);
+
+  const buff = Buffer.from("string");
+
+  // stream.write() returns boolean value whether buffer is full or not
+  stream.write(buff);
+
+  // Filled value of stream buffer
+  console.log(stream.writableLength);
+  console.timeEnd("writeMany");
+})();
