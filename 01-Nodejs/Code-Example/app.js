@@ -1,20 +1,11 @@
-const fs = require("fs/promises");
+const net = require("net");
 
-(async () => {
-  console.time("writeMany");
-  const fileHandle = await fs.open("./text.txt", "w");
+const server = net.createServer((socket) => {
+  socket.on("data", (data) => {
+    console.log(data.toString("utf-8"));
+  });
+});
 
-  const stream = fileHandle.createWriteStream();
-
-  // Size of Stream Buffer
-  console.log(stream.writableHighWaterMark);
-
-  const buff = Buffer.from("string");
-
-  // stream.write() returns boolean value whether buffer is full or not
-  stream.write(buff);
-
-  // Filled value of stream buffer
-  console.log(stream.writableLength);
-  console.timeEnd("writeMany");
-})();
+server.listen(3099, "127.0.0.1", () => {
+  console.log("opened server on", server.address());
+});
