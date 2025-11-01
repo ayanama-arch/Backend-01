@@ -29,8 +29,6 @@ This means Node.js acts as a middleman:
 
 ---
 
----
-
 ## File System APIs in Node.js
 
 Node.js provides **three different styles of APIs** for performing file system operations:

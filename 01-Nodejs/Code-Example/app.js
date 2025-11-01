@@ -1,11 +1,11 @@
-const net = require("net");
+const fs = require("fs/promises");
 
-const server = net.createServer((socket) => {
-  socket.on("data", (data) => {
-    console.log(data.toString("utf-8"));
-  });
-});
-
-server.listen(3099, "127.0.0.1", () => {
-  console.log("opened server on", server.address());
-});
+async function readFile() {
+  try {
+    const data = await fs.readFile("./text.txt", "utf8");
+    console.log("File content:", data);
+  } catch (err) {
+    console.error("Error reading file:", err);
+  }
+}
+readFile();
